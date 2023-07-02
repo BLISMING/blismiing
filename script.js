@@ -1,13 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   new Splide(".splide", {
-    type: "loop",
+    type: 'fade',
     perPage: 1,
-    autoplay: true,
-    pauseOnHover: true,
-    arrows: true,
     pagination: true,
+    autoplay: true,
+    pauseOnHover: false,
+    arrows: true,
     speed : 800,
-    gap: 10,
+    rewind: true, 
+    rewindSpeed: 1000,
+    gap: 10
   }).mount();
 });
 
