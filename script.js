@@ -3,9 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     type: "loop",
     perPage: 1,
     autoplay: true,
-    pauseOnHover: false,
+    pauseOnHover: true,
     arrows: true,
     pagination: true,
+    speed : 800,
+    gap: 10,
   }).mount();
 });
 
