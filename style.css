@@ -1,4 +1,8 @@
-/* Global styles */
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -33,6 +37,7 @@ body {
   padding: 10px 0;
   position: fixed;
   top: 0;
+  font-family: 'Poppins', sans-serif;
   left: 0;
   height: 100px;
   width: 100%;
@@ -46,7 +51,7 @@ body {
 .navbar .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  
 }
 
 .nav-links {
@@ -56,18 +61,19 @@ body {
 }
 
 .nav-links li {
-  margin-left: 20px;
+  margin-left: 10px;
   
 }
 
 .nav-links a {
   font-size: 13px;
   color: white;
-  font-weight: bold;
+
   text-decoration: none;
   background-size: cover;
   background-color: black;
   padding: 8px;
+  
   border-radius: 8px;
 }
 
@@ -127,6 +133,7 @@ a:Hover {
 
 .about {
   font-size: 40px;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 700;
   color: white;
   margin-top: 0px;
@@ -171,6 +178,7 @@ a:Hover {
   margin-top: 0px;
   margin-bottom: 5%;
   background-color: #64CCC5;
+  font-family: 'Work Sans', sans-serif;
   display: block;
   margin-left: auto;
   margin-right: auto;
